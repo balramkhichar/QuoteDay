@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents('api.theysaidso.com/qod.json');
+$json = file_get_contents('http://api.theysaidso.com/qod.json');
 if($json===FALSE){
  die();
 }
